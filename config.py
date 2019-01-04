@@ -1,4 +1,4 @@
-
+import logging
 import redis
 
 
@@ -29,8 +29,6 @@ class Config(object):
 
 #     默认日志等级
     LOG_LEVEL = logging.DEBUG
-
-
 
 class DevelopmentConfig(Config):
     # 开发模式下的配置
